@@ -1,0 +1,6 @@
+include image
+
+fun customTree(top_size, top_color):
+  above(triangle(top_size, "solid", top_color),
+    rectangle((3 * top_size) / 10, top_size * 0.5, "solid", "brown"))
+end
